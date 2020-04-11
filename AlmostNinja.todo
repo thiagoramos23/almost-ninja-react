@@ -1,2 +1,10 @@
-☐ Install a lint and lint staged to not commit when something is not following the convention @created(20-04-11 01:57)
-☐ Add readme to the Github repository @created(20-04-11 01:57)
+✔ Adjust card to have same height @created(20-04-11 02:01) @started(20-04-11 02:03) @done(20-04-11 02:11) @lasted(8m53s)
+✔ Add next.js and configure @created(20-04-11 02:11) @started(20-04-11 02:12)  @done(20-04-11 02:49) @lasted(37m57s)
+
+☐ Start the detail page for the course @created(20-04-11 02:02) @started(20-04-11 03:05) @high
+☐ Install a lint and lint staged to not commit when something is not following the convention @created(20-04-11 01:57) @high
+
+☐ Add readme to the Github repository @created(20-04-11 01:57) @low
+☐ Add Enzyme and create first specs with it @created(20-04-11 02:12) @low
+☐ Problem with SVG invalid dom @created(20-04-11 02:49) @low
+	Use this to convert the SVG to not have this warning: https://react-svgr.com/docs/getting-started/

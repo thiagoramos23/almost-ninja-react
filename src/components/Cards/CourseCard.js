@@ -6,8 +6,8 @@ const courseCard = (props) => {
 	return (
 		<div>
 			<h1 className="my-5 text-gray-700 text-4xl">Courses</h1>
-			<div className="flex flex-wrap justify-center md:justify-evenly items-center mt-4 flex-auto lg:justify-around">
-				<div className="max-w-sm rounded overflow-hidden shadow-lg mt-10">
+			<div className="flex flex-wrap justify-center md:justify-evenly mt-4 flex-auto lg:justify-around">
+				<div className="max-w-sm rounded overflow-hidden shadow-lg mt-10 cursor-pointer transition duration-300 ease-in-out transform hover:-translate-y-1 hover:-translate-x-1 hover:scale-105 hover:shadow-xl">
 					{/* <img className="w-full" src={require('../../assets/card-top.jpg')} alt="Sunset in the mountains" /> */}
 					<MobileIcon />
 					<div className="px-6 py-4">
