@@ -1,13 +1,15 @@
 import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
+import NavigationBar from '../src/components/NavigationBar/NavigationBar';
 import '../css/tailwind.css';
+import '../misc/fontAwesomeLibrary';
 
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <div id="root" className="text-gray-800 bg-gray-100">
+      <div id="root">
         <Head>
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
@@ -16,7 +18,10 @@ class MyApp extends App {
           />
         </Head>
 				<div id="root">
-					<Component {...pageProps} />
+          <NavigationBar />
+          <div>
+            <Component {...pageProps} />
+          </div>
 				</div>
       </div>
     );

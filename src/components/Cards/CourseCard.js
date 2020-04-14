@@ -1,28 +1,31 @@
 import React from 'react';
+import Link from 'next/link';
 import MobileIcon from '../Icons/MobileIcon';
 import CriptoIcon from '../Icons/CriptoIcon';
 
 const courseCard = (props) => {
 	return (
-		<div>
+		<div className="container mx-auto">
 			<h1 className="my-5 text-gray-700 text-4xl">Courses</h1>
 			<div className="flex flex-wrap justify-center md:justify-evenly mt-4 flex-auto lg:justify-around">
-				<div className="max-w-sm rounded overflow-hidden shadow-lg mt-10 cursor-pointer transition duration-300 ease-in-out transform hover:-translate-y-1 hover:-translate-x-1 hover:scale-105 hover:shadow-xl">
-					{/* <img className="w-full" src={require('../../assets/card-top.jpg')} alt="Sunset in the mountains" /> */}
-					<MobileIcon />
-					<div className="px-6 py-4">
-						<div className="font-bold text-xl mb-2">Swift UI & Combine</div>
-						<p className="text-gray-700 text-base">
-							Learn iOS using SwiftUI with Combine and embrace the power of the new Apple UI Framework
-						</p>
+				<Link href="/courses/course">
+					{/* Card Mobile */}
+					<div className="max-w-sm rounded overflow-hidden shadow-lg mt-10 cursor-pointer transition duration-300 ease-in-out transform hover:-translate-y-1 hover:-translate-x-1 hover:scale-105 hover:shadow-xl">
+						{/* <img className="w-full" src={require('../../assets/card-top.jpg')} alt="Sunset in the mountains" /> */}
+						<MobileIcon />
+						<div className="px-6 py-4">
+							<div className="font-bold text-xl mb-2">Swift UI & Combine</div>
+							<p className="text-gray-700 text-base">
+								Learn iOS using SwiftUI with Combine and embrace the power of the new Apple UI Framework
+							</p>
+						</div>
+						<div className="px-6 py-4">
+							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#apple</span>
+							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#swiftui</span>
+							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#combine</span>
+						</div>
 					</div>
-					<div className="px-6 py-4">
-						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#apple</span>
-						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#swiftui</span>
-						<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#combine</span>
-					</div>
-				</div>
-
+				</Link>
 				<div className="max-w-sm rounded overflow-hidden shadow-lg mt-10">
 					<CriptoIcon />
 					<div className="px-6 py-4">

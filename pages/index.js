@@ -5,11 +5,8 @@ import Aux from '../src/hoc/Aux';
 
 export default function Index() {
 	return (
-		<Aux>
-			<NavigationBar />
-			<div className="container mx-auto">
-				<CourseCard/>
-			</div>
-		</Aux>
+		<div>
+			<CourseCard/>
+		</div>
 	)
 }

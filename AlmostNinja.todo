@@ -2,6 +2,7 @@
 ✔ Add next.js and configure @created(20-04-11 02:11) @started(20-04-11 02:12)  @done(20-04-11 02:49) @lasted(37m57s)
 
 ☐ Start the detail page for the course @created(20-04-11 02:02) @started(20-04-11 03:05) @high
+	☐ Finish layout for the course module detail @created(20-04-13 22:57) @started(20-04-13 22:58)
 ☐ Install a lint and lint staged to not commit when something is not following the convention @created(20-04-11 01:57) @high
 
 ☐ Add readme to the Github repository @created(20-04-11 01:57) @low

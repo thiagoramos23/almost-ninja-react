@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const navigationBar = (props) => {
 	return (
@@ -18,10 +19,13 @@ const navigationBar = (props) => {
 			</div>
 			<div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
 				<div className="text-sm lg:flex-grow">
-					<a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4">
-						Courses
-					</a>
-					<a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white">
+					<Link href="/">
+						<a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4">
+							Courses
+						</a>
+					</Link>
+
+					<a href="" className="block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white">
 						Blog
 					</a>
 				</div>
